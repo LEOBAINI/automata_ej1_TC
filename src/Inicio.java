@@ -3,10 +3,10 @@ import java.io.FileNotFoundException;
 public class Inicio {
 
 	public static void main(String[] args) throws FileNotFoundException, InterruptedException {
-		GestorAutomata gestor=new GestorAutomata();
+	    GestorAutomata gestor=new GestorAutomata();
 		gestor.leerArchivoInput(".\\settings.txt");
 		gestor.verificarSiEsAFD();
-		gestor.ejecutar();
+		gestor.ejecutar("aaaaaaaabaaaaabcbcbcbcbcdbdbdbdbdbcacacacaabcd");
 
 	}
 
